@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="post">
+        <div class="detail" style="border: 1px solid black; margin: 1rem; padding:0 1rem 1rem">
+            <p>Your Details:</p>
+            <label for="name" id="name">Name:</label>
+            <input type="text">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+            
+        </div>
+        <br>
+        <div class="review"style="border: 1px solid black; margin: 1rem; padding:0 1rem 1rem ">
+            <p>Your Review:</p>
+            <br>
+                <label for="hear">How did you hear about us?</label>
+                <select name="hear" id="hear">
+                    <option value="Google">Google</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Other">Other</option>
+                </select>
+                <p>Would you visit again?</p>
+                <label for="">Yes</label>
+                <input type="radio" name="visit" id="Yes" value="Yes">
+                <label for="visit">No</label>
+                <input type="radio" name="visit" id="No" value="No">
+                <label for="visit">Maybe</label>
+                <input type="radio" name="visit" id="Maybe" value="Maybe">
+                <p>Comments:</p>
+                <textarea name="" id="" cols="40" rows="5"></textarea>
+                <br>
+                <input type="checkbox" name="" id="newsletter">
+                <label for="newsletter">Sign me up for email updates</label>
+                <br>
+                <button>Submit Review</button>
+        </div>
+    </form>
+</body>
+</html>
