@@ -174,7 +174,6 @@ ul {
   padding: 0;
 }
 .why-us li {
-  /* float: left; */
   align-content: center;
   width: 19%;
   padding: 1.2rem;
@@ -379,8 +378,8 @@ ul {
   margin-top: 0;
   width: 100%;
   padding: 0 2rem 0rem 6rem;
-  color: #636060;
-  text-align: left;
+  color: #808080;
+  text-align: center;
 }
 
 .a1 {
@@ -455,6 +454,53 @@ ul {
   font-size: 1.3rem;
   text-align: center;
   font-weight: 500;
+}
+
+.prices {
+  background-color: #eeeeee;
+  padding: 3rem 5rem;
+  text-align: center;
+}
+
+.prices p {
+  color: #888888;
+  padding: 0.3rem;
+}
+
+.prices .barr {
+  display: inline-block;
+  width: 5rem;
+  height: 0.2em;
+  background-color: #a2d84c;
+  margin-bottom: 1.3rem;
+}
+
+.prices .flex-prices {
+  display: flex;
+  justify-content: space-around;
+}
+
+.prices .card {
+  padding: 0.5rem;
+  width: 30%;
+}
+
+.prices .card li {
+  display: block;
+}
+
+.prices a,
+.prices a:hover {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+.prices .btnn-grn {
+  background-color: #7eb623;
+  margin-top:2rem ;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .project {
@@ -559,16 +605,16 @@ ul {
 }
 
 .footer .logoss a {
-  margin: .8rem 0.2rem !important;
+  margin: 0.8rem 0.2rem !important;
   color: #fff;
 }
 
 .footer span {
   display: inline-block;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
-.footer .contacts h4:not(:first-child){
+.footer .contacts h4:not(:first-child) {
   padding-top: 2rem;
 }
 .footer h5 {
